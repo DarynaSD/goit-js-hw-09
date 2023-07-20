@@ -17,3 +17,34 @@ img {
   max-width: 100%;
 }
 
+.timer {
+  display: flex;
+  gap: 20px;
+}
+
+.timer-wrap {
+  background-image: linear-gradient(#F96715, #F93E15);
+  padding: 35px;
+  width: 350px;
+  border-radius: 10px;
+
+  color: aliceblue;
+}
+
+.text {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.timer-wrap {
+  margin-top: 40px;
+}
+
+.label {
+  text-transform: lowercase;
+}
+
+.value {
+  font-size: 30px;
+}
+
